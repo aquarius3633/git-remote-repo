@@ -9,6 +9,11 @@ int main() {
     cout << num1 << endl;
     cout << numRef << endl;
     cout << numPtr << endl;
+
+    for(int i = 0; i < numRef; i++) {
+        cout << numPtr[i] << endl;
+    }
+    
     return 0;
 
 }
